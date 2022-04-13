@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ff084e;
+    color: white;
+}
+
+.right-nav {
+    color: white;
+    display:flex;
+    align-items: center;
+}
+
+.right-nav h6{
+    padding: 5px;
+    
+}
+
+.right-nav span {
+    padding: 1px 10px;
+    background-color: rgb(97, 107, 116);
+    border-radius: 5px;
+}
+
+.container {
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px #aaaaaa;
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-bottom: 15px;
+    /* background-color: rgb(90, 134, 134); */
+}
+
+.productTitle {
+    margin-top: 10px;
+    padding: 9px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: #dee2e6;
+}
+
+.items {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.top-nav {
+    display: flex;
+    position: absolute;
+    right: 2px;
+    top: -12px;
+   
+}
+.top-nav button{
+    color: red;
+    font-weight: 700;
+}
+
+.image {
+ display: flex;
+ align-items: center;
+ /* max-width: 200px; */
+ font-size: 16px;
+ font-family: cursive;
+}
+
+.image img {
+   /* width: 150px; */
+   height: 100px;
+    padding-right: 10px;
+}
+
+.left-actions {
+    display: flex;
+    
+    align-items: center;
+}
+.price {
+    padding: 5px 10px;
+    font-weight: 700;
+}
+.quantity {
+    background-color: #dee2e6;
+    display: flex;
+    border-radius: 5px;
+   
+}
+.unit{
+    /* text-align: center; */
+  margin-top: 5px;
+    padding: 0px 5px;
+    /* height: 30px; */
+}
+button {
+    background-color: #dee2e6;
+    border: none;
+    color: black;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 5px;
+}
+.total {
+    padding: 5px 3px 0px 5px;
+    font-weight: 700;
+}
+
+.reset {
+    background-color: rgb(92, 92, 228);
+    color: #fff;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #ff084e;
+    /* height: 30px; */
+    color: #fff;
+    margin-top: 20px;
+   
+    padding: 10px;
+}
